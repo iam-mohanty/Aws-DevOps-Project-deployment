@@ -1,6 +1,6 @@
 # Aws-DevOps-Project-deployment
 
-### code commit👨‍💻
+## Code Commit👨‍💻
 
 #### 1. Create CodeCommit Repository
 
@@ -13,3 +13,14 @@ create iam user = demo
 HTTPS Git credentials for AWS CodeCommit , click on generate credentials and download csv.credentials file
 
 attach a policy = AWSCodeCommitPowerUser
+
+#### 3.  Push code to CodeCommit
+
+open terminal
+
+git clone < codecommi url > 
+
+cd demo
+
+git clone < github repo url >
+
